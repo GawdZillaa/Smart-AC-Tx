@@ -1,0 +1,44 @@
+.headerContainer{
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
+    font-family: "Times New Roman";
+}
+
+.linkList{
+    display: flex;
+    flex: 1;
+}
+
+.linkItem{
+    display: flex;
+    flex: 1;
+    margin-right: 15px;
+}
+
+.headerImageContainer{
+    flex: 7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.headerImage{
+    height: 65px;
+}
+
+.headerTitle{
+    font-size: 30px;
+    margin-left: 25px;
+    font-family: "Times New Roman";
+}
+
+.linkListContainer{
+    flex:3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
